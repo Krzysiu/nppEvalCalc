@@ -42,11 +42,11 @@ Output:<br>
 
 # First steps
 1. Download `evalCalc.php` and put it into some directory
-2. Get `pork2Sausage.template.ini` and change following values:
+2. Get `pork2Sausage.template.ini` and append it to your `%APPDATA%\Notepad++\plugins\Config\pork2Sausage.ini`
+3. Change following values:
 * set path to PHP binary (directory+filename) in `progPath`
 * set path to script (directory+filename) in `progCmd`
-*change `workDir` to script directory (same as above, but without filename)
-3. *Append* lines below to your `%APPDATA%\Notepad++\plugins\Config\pork2Sausage.ini`
+* change `workDir` to script directory (same as above, but without filename)
 
 # Custom button in toolbar
 1. Download `toolbar_ico_eval_calc.bmp` to `%APPDATA%\Notepad++\plugins\Config\`
