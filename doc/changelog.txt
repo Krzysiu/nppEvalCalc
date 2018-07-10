@@ -1,0 +1,4 @@
+0.2:
+* allow multiple expressions in separate lines
+* floating point symbol applies also to input
+* config-able : as alternate division symbol

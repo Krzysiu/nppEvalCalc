@@ -1,0 +1,8 @@
+* allow loading thousands and decimal separator from local PC settings
+* don't loose original white spaces on the beginning and end of expression (regexp: ^(\w*)(.*)(\w*)$)
+* allow to keep erroneous lines as they are
+* process different brackets
+* communicate common errors in expression (like uneven bracket count)
+* change xToY (caretToPower) settings to separate translation table
+* fix errors for PHP, which aren't errors in math (e.g. parse "5 + 5 = ?")
+* allow placing result in different place (by using symbol from config, e.g. "x=3*3" will render "9=3*3"
